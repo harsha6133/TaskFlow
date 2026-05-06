@@ -1,0 +1,40 @@
+/* Tailwind v4 entry point */
+@import "tailwindcss";
+
+/* Full height layout */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+/* Dark theme by default */
+html {
+  color-scheme: dark;
+}
+
+/* Base body styles */
+body {
+  background-color: #111827; /* gray-900 */
+  color: #e5e7eb;           /* gray-200 */
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Smooth fonts */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* Buttons inherit font */
+button {
+  font-family: inherit;
+}
